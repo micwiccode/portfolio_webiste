@@ -1,0 +1,58 @@
+@import 'layout.scss';
+
+.section {
+  background-image: url('../images/bg_1.png');
+  height: 100vh;
+  width: 100%;
+  padding: 5% 10%;
+
+  &_welcome {
+    display: flex;
+    height: 100vh - $header-width;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+
+    &__title {
+      font-weight: 900;
+      font-size: 5em;
+      margin: 0;
+    }
+
+    &__subtitle {
+      font-weight: 800;
+      font-size: 2em;
+      margin: 0;
+
+      span {
+        color: #463cda;
+      }
+    }
+
+    &__btn {
+      min-width: 80%;
+      padding: 10% 12%;
+      margin: 20px 0;
+      white-space: nowrap;
+      text-align: center;
+      border: none;
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      font-family: 'Catamaran', sans-serif;
+      font-size: 1.1em;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color .5s ease-in-out;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        background-color: #463cda;
+      }
+    }
+  }
+}

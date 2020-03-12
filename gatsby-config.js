@@ -7,6 +7,16 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'Catamaran',
+        ],
+        display: 'swap'
+      }
+    },
+    `gatsby-plugin-sass`,
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
