@@ -1,3 +1,4 @@
+@import "consts";
 $header-width: 8vh;
 
 html {
@@ -15,12 +16,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Fjalla One', sans-serif;
-  background-color: white;
+  background-color: $white;
 }
 
 *, *::before, *::after{
   box-sizing: border-box;
-  color: black;
+  color: $black;
 }
 
 .content{

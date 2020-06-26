@@ -7,6 +7,8 @@ import Footer from './footer'
 import '../css/layout.scss'
 
 const Layout = ({ children }) => {
+
+
   return (
     <div className="global">
       <Header />

@@ -1,5 +1,7 @@
+@import "consts";
+
 .loader_box{
-  background-color: #463cda;
+  background-color: $blue;
   width: 100vw;
   height: 100vh;
   z-index: 100;
